@@ -8,7 +8,8 @@ jobs:
   name: My first Action
   runs-on: ubuntu-latest
   steps:
-   - uses: actions/checkout@v1
-   - uses: ./action-a
-     with:
-       MY_NAME: Haluk
+    - uses: actions/checkout@v1
+    - uses: ./action-a
+      with:
+        MY_NAME: Haluk
+       #test
